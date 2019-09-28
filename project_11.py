@@ -16,7 +16,7 @@ batteryP2=batteryP1/1000 #перевод из МАЧ в АЧ
 batteryP2=U*batteryP2/1000 #перевод из АЧ в кВт*ч
 quantity=math.ceil(Tpower/batteryP2)
 print('Для заряда теслы понадобится' ,quantity, 'батареек')
-weightT=150 #кг
+weightT=200 #кг
 if batteryP1<=1000:
     weightB1=15/1000
     weight1 = weightB1 * quantity
